@@ -1,0 +1,87 @@
+.background {
+  background-image: url('./img/backgroundof.png'); 
+  background-size: cover; /* Para a imagem cobrir toda a tela */
+  background-position: center; /* Para centralizar a imagem */
+  background-attachment: fixed; /* Para manter a imagem fixa no fundo */
+  height: 100vh; /* O componente ocupará toda a altura da tela */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center;
+}
+
+/* Estilo do quadrado com 20% de transparência */
+.transparent-box {
+  width: 465px;
+  height: 584px;
+  background-color: rgba(255, 255, 255, 0.936); /* 20% de transparência */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-button {
+  width: 250px;
+  height: 48px;
+  border-radius: 16px;
+  background: rgb(149, 117, 205); /* Cor de fundo com opacidade */
+  flex-shrink: 0; /* Para evitar que o botão encolha em layouts flex */
+  border: none; /* Remove qualquer borda padrão */
+  color: white; /* Cor do texto */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Para mudar o cursor quando passar sobre o botão */
+  display: inline-block; /* Configuração padrão para botão */
+  outline: none; /* Remove o contorno padrão ao clicar */
+}
+
+/* Estilo para o input de email */
+.input-email {
+  width: 250px;
+  height: 48px;
+  padding: 16px 195px 16px 16px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, #E6EEF8 0%, #E6EEF8 100%), #CFD8DC;
+  box-shadow: -4px -4px 12px 0px rgba(253, 255, 255, 0.80) inset, 
+              4px 4px 12px 0px rgba(187, 195, 206, 0.60) inset;
+  border: none; /* Remover borda padrão */
+  outline: none; /* Remover contorno ao clicar */
+  font-size: 16px; /* Tamanho do texto no input */
+}
+
+/* Estilo para o input de senha */
+.input-password {
+  width: 252px;
+  height: 48px;
+  padding: 16px 192px 16px 16px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, #E6EEF8 0%, #E6EEF8 100%), #CFD8DC;
+  box-shadow: -4px -4px 12px 0px rgba(253, 255, 255, 0.80) inset, 
+             4px 4px 12px 0px rgba(187, 195, 206, 0.60) inset;
+  border: none; /* Remover borda padrão */
+  outline: none; /* Remover contorno ao clicar */
+  font-size: 16px; /* Tamanho do texto no input */
+}
+
+/* Estilo para o placeholder */
+input::placeholder {
+  color: #7A869A; /* Cor do placeholder */
+  font-size: 14px; /* Tamanho da fonte do placeholder */
+}
+
+.logo {
+  background-image: url('./img/logogomove.png');
+  width: 191px;
+  height: 168px;
+  position: absolute; /* Para permitir posicionamento baseado em 'top' e 'left' */
+  top: 117px;
+  left: 544px;
+}
+
+.box {
+  width: 480px;
+  height: 595px;
+  padding: 10px;
+  right: 500px;
+  background-color: rgba(255, 255, 255, 0.442); /* 20% de transparência */
+  display: flex;
+}
+
